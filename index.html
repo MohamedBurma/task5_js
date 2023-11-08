@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolls Royce</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-light">
+
+    <div class="container">
+
+        <div class="row mt-3 products">
+
+            <div class="col-md-3">
+                <li price="420000">
+                    <div class="card product-item">
+                        <span class="price bg-success p-2 text-light shadow">$420,000</span>
+                        <img src="images/img1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" id="product-name">
+                            SPECTRE
+                        </div>
+                    </div>
+                </li>
+
+            </div>
+
+            <div class="col-md-3">
+                <li price="400000">
+                    <div class="card product-item">
+                        <span class="price bg-success p-2 text-light shadow">$400,000</span>
+                        <img src="images/img2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" id="product-name">
+                            GHOST
+                        </div>
+                    </div>
+                </li>
+
+            </div>
+
+            <div class="col-md-3">
+                <li price="499996">
+                    <div class="card product-item">
+                        <span class="price bg-success p-2 text-light shadow">$499,996</span>
+                        <img src="images/img3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" id="product-name">
+                            BLACK BADGE GHOST
+                        </div>
+                    </div>
+                </li>
+
+            </div>
+
+            <div class="col-md-3">
+                <li price="355000">
+                    <div class="card product-item">
+                        <span class="price bg-success p-2 text-light shadow">$355,000</span>
+                        <img src="images/img4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" id="product-name">
+                            CULLINAN
+                        </div>
+                    </div>
+                </li>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="row mt-3 mb-4 selected-products">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        Selected Products
+                    </div>
+                    <div class="card-body">
+
+                        <table class="table" id="div1">
+                        </table>
+                        <!-- <div id="div1"></div> -->
+
+                    </div>
+
+                </div>
+                <div class="d-grid gap-2">
+                <button id="showPrice" class="btn btn-primary btn-block total-price">total price</button>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-total-price" id="card_total_price">
+                    <div class="card-header">
+                        Total Price
+                    </div>
+
+                    <div class="card-body sum_price text-center p-5 text-success text-bold" id="sum_price">
+                    </div>
+                    <div class="card-footer" id="seleted_items">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

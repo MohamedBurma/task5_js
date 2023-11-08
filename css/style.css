@@ -1,0 +1,39 @@
+.product-item {
+    position: relative;
+    transition: 0.5s;
+}
+
+.price {
+    position: absolute;
+    top: 60px;
+    border-radius: 0 2px 2px 0;
+}
+
+.products {
+    list-style: none;
+}
+
+.product-item:active {
+    transform: scale(90%, 90%);
+    transition: 0.5s;
+}
+
+.selected-products {
+    line-height: 32px;
+}
+
+.total-price {
+    display: none;
+}
+
+.sum_price {
+    font-size: 42px;
+}
+
+.card-total-price {
+    display: none;
+}
+
+.selected-title {
+    display: inline;
+}
